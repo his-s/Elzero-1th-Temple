@@ -6,3 +6,33 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+body i {
+  color: green;
+  font-size: 90px;
+}
+.parent {
+  background-color: #aaa;
+}
+.container {
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 600px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
